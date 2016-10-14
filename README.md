@@ -7,16 +7,16 @@ Given a Bayesian network and several queries in a text file ending with a .txt e
 (sample01.txt)  
 P(NightDefense = +, Infiltration = -)  
 P(Demoralize = + | LeakIdea = +, Infiltration = +)  
-******  
+\*\*\*\*\*\*  
 LeakIdea  
 0.4  
-***  
+\*\*\*  
 NightDefense | LeakIdea  
 0.8 +  
 0.3 -  
 Infiltration  
 0.5  
-***  
+\*\*\*  
 Demoralize | NightDefense Infiltration  
 0.3 + +  
 0.6 + -  
